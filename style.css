@@ -117,20 +117,28 @@ footer div {
     /*height: 100%;*/
 /*}*/
 
-.abtcontainer {
+.pagecontainer {
     margin: 0 auto 50px;
     padding-top: 15px;
     max-width: 1000px;
     color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.about, .abtslogan {
+#menucontainer {
+    max-width: 1500px;
+}
+
+.title, .abtslogan {
     text-align: center;
     padding: 30px 0;
 }
 
-.about {
+.title {
     font-size: 64px;
+    width: 100%;
 }
 
 .abtslogan {
@@ -142,4 +150,85 @@ footer div {
 .abtcontent p {
     line-height: 25px;
     padding: 15px 0;
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.category {
+    padding: 0 100px;
+    width: 400px;
+}
+
+.category h2 {
+    font-size: 28px;
+    text-align: center;
+    border-top: 3px solid #922C2D;
+    border-bottom: 1px solid #922C2D;
+    padding: 10px 0;
+}
+
+.none h2 {
+    border:none;
+    text-decoration: underline;
+    padding: 0;
+}
+
+li p {
+    max-width: 450px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: dotted 3px;
+    border-color: #999999;
+    margin: 15px 0;
+}
+
+li span:last-of-type {
+    position: absolute;
+    bottom: -0.3em;
+    right: 0;
+    background-color: white;
+    padding-left: 5px;
+}
+
+li span:first-of-type {
+    position: absolute;
+    bottom: -0.3em;
+    background-color: white;
+    padding-right: 5px;
+}
+
+.noborder {
+    border: none;
+    font-size: 14px;
+}
+
+.noborder p {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    font-size: 20px;
+}
+
+.menu {
+    padding-bottom: 20px;
+}
+
+.other {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.food {
+    max-width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
