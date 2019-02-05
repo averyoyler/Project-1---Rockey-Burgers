@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menu</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+<!-- content is across all pages  -->
+    <nav id="sidenav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="faq.html">FAQ</a>
+    </nav>
+
+    <nav class="topnav">
+        <ul>
+            <li onclick="openNav()" class="openbtn">&#9776;</li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <div onclick="closeNav()" class="content">
+        <div class="logo">
+            <a href="index.html">
+                <img src="./images/rockeyburgers02-logo.png" alt="Rockey Burgers Logo">
+            </a>
+        </div>
+    </div>
+    <div class="slogan">
+        <h2>Best Quality Burgers in town. Off the charts.</h2>
+    </div>
+    <!-- content is across all pages ^^^ -->
+    <div class="all">
+        <div class="pagecontainer">
+            <div class="title">Jobs</div>
+            <div class="jobptitle">Join Our Great Team!</div>
+            <div class="abtcontent">
+                <div class="jobform">
+                <form action="#">
+                    <div>
+                        <label for="first">First Name:</label>
+                        <input type="text" id="first" placeholder="First Name" required>
+                        <label for="last">Last Name:</label>
+                        <input type="text" id="last" placeholder="Last Name" required>
+                    </div>
+                    <div>
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" placeholder="Address" required>
+                    </div>
+                    <div>
+                        <label for="addresstwo">Address 2:</label>
+                        <input type="text" id="addresstwo" placeholder="Address">
+                    </div>
+                    <div>
+                        <label for="city">City:</label>
+                        <input type="text" id="city" placeholder="City" required>
+                        <label for="state">State:</label>
+                        <select id="state" required>
+                            <option value="AL">Alabama</option>
+                            <option value="AK">Alaska</option>
+                            <option value="AZ">Arizona</option>
+                            <option value="AR">Arkansas</option>
+                            <option value="CA">California</option>
+                            <option value="CO">Colorado</option>
+                            <option value="CT">Connecticut</option>
+                            <option value="DE">Delaware</option>
+                            <option value="FL">Florida</option>
+                            <option value="GA">Georgia</option>
+                            <option value="HI">Hawaii</option>
+                            <option value="ID">Idaho</option>
+                            <option value="IL">Illinois</option>
+                            <option value="IN">Indiana</option>
+                            <option value="IA">Iowa</option>
+                            <option value="KS">Kansas</option>
+                            <option value="KY">Kentucky</option>
+                            <option value="LA">Louisiana</option>
+                            <option value="ME">Maine</option>
+                            <option value="MD">Maryland</option>
+                            <option value="MA">Massachusetts</option>
+                            <option value="MI">Michigan</option>
+                            <option value="MN">Minnesota</option>
+                            <option value="MS">Mississippi</option>
+                            <option value="MO">Missouri</option>
+                            <option value="MT">Montana</option>
+                            <option value="NE">Nebraska</option>
+                            <option value="NV">Nevada</option>
+                            <option value="NH">New Hampshire</option>
+                            <option value="NJ">New Jersey</option>
+                            <option value="NM">New Mexico</option>
+                            <option value="NY">New York</option>
+                            <option value="NC">North Carolina</option>
+                            <option value="ND">North Dakota</option>
+                            <option value="OH">Ohio</option>
+                            <option value="OK">Oklahoma</option>
+                            <option value="OR">Oregon</option>
+                            <option value="PA">Pennsylvania</option>
+                            <option value="RI">Rhode Island</option>
+                            <option value="SC">South Carolina</option>
+                            <option value="SD">South Dakota</option>
+                            <option value="TN">Tennessee</option>
+                            <option value="TX">Texas</option>
+                            <option value="UT">Utah</option>
+                            <option value="VT">Vermont</option>
+                            <option value="VA">Virginia</option>
+                            <option value="WA">Washington</option>
+                            <option value="WV">West Virginia</option>
+                            <option value="WI">Wisconsin</option>
+                            <option value="WY">Wyoming</option>
+                        </select>
+                        <label for="zip">Zip Code:</label>
+                        <input type="text" id="zip" placeholder="Zip Code" required>
+                    </div>
+                    <div>
+                        <label for="phone">Phone Number:</label>
+                        <input type="text" id="phone" placeholder="Phone Number" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="Email" required>
+                    </div>
+                    <div class="subbtn">
+                        <input type="submit">
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- content is across all pages  -->
+    <footer>
+        <a href="jobs.html">Jobs</a>
+        <a href="#">Locations</a>
+        <a href="#">FAQ</a>
+        <a href="#">Subscribe</a>
+        <div>
+            <a href="http://www.twitter.com/keyburgers"><i class="fab fa-twitter-square"></i></a>
+            <a href="http://www.facebook.com/keyburgers"><i class="fab fa-facebook"></i></a>
+        </div>
+    </footer>
+    <!-- content is across all pages ^^^ -->
+
+    </body>
+    </html>
