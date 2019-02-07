@@ -305,3 +305,53 @@ input[type=submit] {
 textarea {
     resize: none;
 }
+
+.faqcontent h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.faqcontent p {
+    width: 750px;
+}
+
+button {
+    padding: 5px;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    color: #922C2D;
+    outline: none;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    height: 80%;
+    /*box-shadow: 3px 3px 10px 0 lightgrey;*/
+}
+
+button:hover {
+    background-color: #922C2D;
+    color: #FFFFFF;
+    border: 1px solid #922C2D;
+    transition-duration: 0.3s;
+}
+
+#faqOne, #faqTwo {
+    display: none;
+    width: 100%;
+}
+
+.faqq {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.faqi {
+    height: 17px;
+    width: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}

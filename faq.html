@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>FAQ</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -41,6 +42,39 @@
     </div>
     <!-- content is across all pages ^^^ -->
 
+    <div class="all">
+        <div class="pagecontainer">
+            <div class="title">FAQ</div>
+            <div class="faqcontent">
+                <div>
+                    <div>
+                        <div class="faqq">
+                            <h2>Why is your Rockey Burger so expensive?</h2>
+                            <button onclick="toggleOne()">
+                                <i class="fas fa-angle-down faqi"></i>
+                            </button>
+                        </div>
+                        <div id="faqOne">
+                            <p>We focus on making meals with the best and freshest ingredients, like humanely-raised beef that is ground fresh each day, organic chicken, and Rockey Family Dairy's organic cream for our ice cream cones, sundaes and shakes.</p>
+                            <p>Our commitment to freshness and quality means higher prices than you'd find at traditional fast-food burger chains. It also means food that tastes way better -- because, well, it is.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="faqq">
+                            <h2>Where does your beef come from?</h2>
+                            <button onClick="toggleTwo()">
+                                <i class="fas fa-angle-down faqi"></i>
+                            </button>
+                        </div>
+                        <div id="faqTwo">
+                            <p>We source our humanely-raised, vegetarian-fed beef from local, family-owned ranches. We use an 85% to 15% protein to fat blend, a mixture of the lean protein and the marbling found on in a cut of steak for our ground beef. The mixture is ground daily, and thus, our burgers taste so amazing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- content is across all pages  -->
         <footer>
             <a href="jobs.html">Jobs</a>
@@ -53,6 +87,23 @@
             </div>
         </footer>
         <!-- content is across all pages ^^^ -->
-
+<script>
+    function toggleOne() {
+        let x = document.getElementById("faqOne");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+    function toggleTwo() {
+        let x = document.getElementById("faqTwo");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
 </body>
 </html>
