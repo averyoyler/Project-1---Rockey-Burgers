@@ -468,3 +468,24 @@ button:hover {
 
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.wrapper h3 {
+    text-align: center;
+}
+
+.video {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#egg {
+    display: none;
+}
