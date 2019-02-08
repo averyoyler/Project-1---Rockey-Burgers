@@ -488,4 +488,6 @@ button:hover {
 
 #egg {
     display: none;
+    flex-direction: column;
+    margin-top: 0;
 }
