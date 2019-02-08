@@ -90,6 +90,30 @@ footer div {
     }
 }
 
+@media screen and (max-width: 1620px) {
+    .rowOne, .rowTwo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .loca {
+        margin-bottom: 30px;
+        padding: 30px;
+        border-bottom: 1px solid grey;
+    }
+    .locatop {
+        border-top: 1px solid grey;
+    }
+}
+
+@media screen and (min-width: 1621px) {
+    .rowOne {
+        padding-bottom: 25px;
+        margin-bottom: 25px;
+    }
+}
+
 .img, .logo {
     display: flex;
     justify-content: center;
@@ -413,3 +437,34 @@ button:hover {
     display: flex;
     align-items: center;
 }
+
+.locacontent {
+    width: 100%;
+}
+
+.locations {
+    margin: 0 150px 50px;
+    padding-top: 15px;
+    color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rowOne, .rowTwo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.loca {
+    display: flex;
+}
+
+.locaHours {
+    text-align: center;
+    width: 250px;
+    padding-left: 10px;
+
+}
+
